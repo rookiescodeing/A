@@ -37,7 +37,7 @@ class Config((object)):
     # watermark file
     DEF_WATER_MARK_FILE = ""
     # Sql Database url
-    DB_URI = os.environ.get("DATABASE_URL", "")
+    DB_URI = os.environ.get("DATABASE_URL", "postgres://xgaguiml:zQEGDj7O0o6DgReyTO-wzJS7WPJhn4bR@tiny.db.elephantsql.com/xgaguiml")
     # dict to hold Google Drive SignIns
     G_DRIVE_AUTH_DRQ = {}
     # g_drive
