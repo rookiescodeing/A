@@ -41,6 +41,6 @@ class Config((object)):
     # dict to hold Google Drive SignIns
     G_DRIVE_AUTH_DRQ = {}
     # g_drive
-    IS_TEAM_DRIVE = os.environ.get("IS_TEAM_DRIVE", False)
-    USE_SERVICE_ACCOUNTS = os.environ.get("USE_SERVICE_ACCOUNTS", False)
+    IS_TEAM_DRIVE = os.environ.get("IS_TEAM_DRIVE", True)
+    USE_SERVICE_ACCOUNTS = os.environ.get("USE_SERVICE_ACCOUNTS", True)
     INDEX_URL = os.environ.get("INDEX_URL", "")
